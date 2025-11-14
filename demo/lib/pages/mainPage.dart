@@ -25,7 +25,7 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: _selectedIndex == 1
+      appBar: _selectedIndex == 1 || _selectedIndex == 2
           ? null
           : AppBar(
               backgroundColor: Colors.deepPurple,
